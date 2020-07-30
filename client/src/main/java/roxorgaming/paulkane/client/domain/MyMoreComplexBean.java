@@ -1,4 +1,4 @@
-package roxorgaming.paulkane.client;
+package roxorgaming.paulkane.client.domain;
 
 import lombok.Builder;
 import lombok.Data;

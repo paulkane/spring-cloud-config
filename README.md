@@ -27,3 +27,6 @@ bin/kafka-server-start.sh config/server.properties
 curl  -H "Content-Type: application/json" http://localhost:8080/actuator/bus-refresh -d {}
 
 https://springbootdev.com/2018/07/21/spring-cloud-config-using-git-webhook-to-auto-refresh-the-config-changes-with-spring-cloud-stream-spring-cloud-bus-and-rabbitmq-part-3/
+
+
+curl http://localhost:8888/config-client-poc/dev/master
